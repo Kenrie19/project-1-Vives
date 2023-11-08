@@ -1,0 +1,355 @@
+/* CSS reset code */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+ 
+}
+
+/* Background color using RGB */
+html{
+    background-color: #5B7553;
+}
+
+/* 90% Body in the center of the page */
+body{
+    width: 90%;
+    margin: 5px auto 0 auto;
+    padding: 0%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #5B7553;
+    color: #202c39;
+}
+
+.Company{
+    background-image: url(/11_Project1/ROOT/Recources/Imagines/Climate.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;+
+    
+
+}
+
+h1{
+    font-size: xxx-large;
+    font-weight: 1000;
+    padding-top: 75;
+    padding-bottom: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    
+}
+
+h2{
+    font-size: xx-large;
+}
+
+h3{
+    font-size: x-large;
+    font-weight: 750;
+    padding-top: 5;
+    padding-bottom: 75;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+/* Styling the Navigation bar */
+.navigation{
+    background-color: #308D60;
+    box-shadow: 1px 1px 1px 1px;
+    margin: 2px 2px 2px 2px;
+    width: 100%;
+    margin: 0px auto 0 auto;
+    padding: 0px;
+    text-align: left;
+    text-decoration: none;
+    margin-top: 0%;
+    margin-bottom: 5%;
+
+h2{
+    padding-top: 1%;
+    color: brown;
+    text-decoration: underline;
+}    
+a{
+    text-decoration: none;
+}
+
+
+/* mouse is different color */
+A:hover{
+    color: brown;
+}
+
+
+
+ul{
+   padding: 2%;
+}
+
+li{
+    display: inline;
+    width: 100px;
+    margin-right: 20px;
+    background-color: #308D60;
+    font-size: larger;
+}
+
+} /*end of styling Navigation bar */
+
+
+/*Styling (section 1) */
+#Section_1{
+
+    background-color: rgb(81, 226, 95);
+    margin-top: 3px;
+    margin-bottom: 5%;
+
+h2{
+    text-shadow: 5px;
+    text-decoration: underline;
+    color: brown;
+}    
+
+img{
+    float: right;
+    padding-right: 10px;
+    margin-top: 0px;
+
+}    
+
+p{
+    margin-bottom: 15px;
+    font-size: large;
+    text-align: left;
+    margin-left: 1%;
+
+}
+
+
+} /*end of styling (section 1) */
+    
+/*Styling (section 2) */
+#Section_2{
+
+    background-color: #308D60;
+    margin-top: 3px;
+    margin-bottom: 5%;
+
+h2{
+    text-shadow: 5px;
+    text-decoration: underline;
+    color: brown;
+}    
+
+img{
+    float: right;
+    padding-right: 10px;
+    margin-top: 0px;
+    border-radius: 8%;
+    width: 30%;
+}    
+
+img:hover {
+    transform: scaleX(-1);
+  }
+
+p{
+    margin-bottom: 15px;
+    font-size: large;
+    text-align: left;
+    margin-left: 1%;
+
+    
+
+}
+
+.head2{
+    text-decoration: underline;
+}
+
+.textunder{
+    padding-bottom: 2%;
+}
+
+} /*end of styling (section 2) */
+
+/*Styling (section 3) */
+#Section_3{
+
+    background-color: rgb(81, 226, 95);
+    margin-top: 3px;
+    margin-bottom: 5%;
+
+h2{
+    text-shadow: 5px;
+    text-decoration: underline;
+    color: brown;
+}    
+
+  
+
+
+p{
+    margin-bottom: 15px;
+    font-size: large;
+    text-align: left;
+    margin-left: 1%;
+    
+
+}
+
+.head3{
+    text-decoration: underline;
+    padding-top: 15px;
+}
+
+.textunder{
+    padding-bottom: 2%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+} /*end of styling (section 3) */
+
+/*Styling (section 4) */
+#Section_4{
+
+    background-color: #308D60;
+    background-repeat: space;
+    margin-top: 3px;
+    margin-bottom: 5%;
+
+h2{
+    text-shadow: 5px;
+    text-decoration: underline;
+    color: brown;
+}    
+
+h3{
+    background-color: #308D60;
+    padding-bottom: 10px;
+}
+
+img{
+    float: right;
+    padding-right: 10px;
+    margin-top: 0px;
+    border-radius: 8%;
+    width: 30%;
+}    
+
+img:hover {
+    transform: scaleX(-1);
+  }
+
+p{
+    margin-bottom: 15px;
+    font-size: large;
+    text-align: left;
+    margin-left: 1%;
+
+    
+
+}
+
+.head2{
+    text-decoration: underline;
+}
+
+.textunder{
+    padding-bottom: 2%;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+    width: 95%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    /*box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    width: 47%;
+    float: right;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  } 
+
+.contact{
+    float: left;
+    padding-left: 24%;
+    padding-bottom: 19%;
+    width: 25%;
+    height: 35%;
+    background-color: #308D60;
+    border-right: solid 14px black;
+
+i{
+    float: right;
+    margin-right: 10%;
+}
+
+.pc{
+    float: left;
+    margin-left: 15%;
+}
+
+.icons{
+    margin-top: 40%;
+    margin-left: 60%;
+}
+
+
+}
+
+} /*end of styling (section 4) */
+
+.footer { /*styling the footer */
+    margin-top: 40%;
+    padding: 10px; 
+    text-align: center;
+    background-color: rgb(81, 226, 95);
+    color: #202c39;
+    border-radius: 5px;
+} /*end of styiling the footer */
